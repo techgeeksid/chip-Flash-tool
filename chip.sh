@@ -47,22 +47,22 @@ git clone http://github.com/NextThingCo/sunxi-tools
 
 
 2) echo "Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND)."
-  cd ~/CHIP-tools
+  cd CHIP-tools
   sudo ./chip-update-firmware.sh -f;;
 3) echo "Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND)."
-  cd ~/CHIP-tools
+  cd CHIP-tools
   sudo ./chip-update-firmware.sh ;;  
 4) echo "Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND)."
-  cd ~/CHIP-tools
+  cd CHIP-tools
   sudo ./chip-update-firmware.sh -d -f;;
 5)echo "Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND)."
-  cd ~/CHIP-tools
+  cd CHIP-tools
   sudo ./chip-update-firmware.sh -d ;;
 6)echo "Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND)."
-  cd ~/CHIP-tools
+  cd CHIP-tools
   sudo ./chip-update-firmware.sh -d -b stable-gui -f;;
 7)echo "Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND)."
-  cd ~/CHIP-tools
+  cd CHIP-tools
   sudo ./chip-update-firmware.sh -d -b stable-gui ;;  
 8) exit;;
 esac
