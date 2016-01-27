@@ -20,7 +20,7 @@ echo "======================================="
 echo ""
 echo "Enter 1 to Setup Ubuntu For Flashing 1:"
 echo ""
-echo “Flash-tool”
+echo "Flash-Tool"
 echo "Enter 2 to Flash With NTC Buildroot OS 2:"
 echo "Enter 3 to Flash With NTC Buildroot OS without fastboot 3:"
 echo "Enter 4 to Flash With Debian 4:"
