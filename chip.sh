@@ -5,8 +5,6 @@
 #!version:0.26
 while true
 do
-mkdir chip 
-cd chip
 clear
 echo 	 "   _____ _____ _____  ";
 echo	 "  / ____|_   _|  __ \ ";
