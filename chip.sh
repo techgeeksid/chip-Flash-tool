@@ -25,6 +25,7 @@ echo "Enter 4 to Flash With CHIP Operating System 4:"
 echo "Enter 5 to exit"
 echo ""
 echo "======================================="
+echo "Enter option Number:"
 
 read answer
 case "$answer" in 
@@ -54,6 +55,6 @@ git clone http://github.com/NextThingCo/sunxi-tools
   sudo ./chip-update-firmware.sh -d -b stable-gui ;;  
 5) exit;;
 esac
-echo -e "Enter 1-5 "
+echo -e "Enter new option"
 done
 
