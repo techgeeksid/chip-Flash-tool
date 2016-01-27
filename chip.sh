@@ -2,7 +2,7 @@
 #:Title	: chip
 #!Date	:27-1-16
 #!Author:"k siddhartha varma"
-#!version:0.21
+#!version:0.22
 while true
 do
 mkdir chip 
@@ -19,6 +19,8 @@ echo "Menu..."
 echo "======================================="
 echo ""
 echo "Enter 1 to Setup Ubuntu For Flashing 1:"
+echo “”
+echo “Flash-tool”
 echo "Enter 2 to Flash With NTC Buildroot OS 2:"
 echo "Enter 3 to Flash With NTC Buildroot OS without fastboot 3:"
 echo "Enter 4 to Flash With Debian 4:"
@@ -44,17 +46,23 @@ git clone http://github.com/NextThingCo/sunxi-tools
 		cd CHIP-tools;;
 
 
-2) cd ~/CHIP-tools
+2) echo “Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND). Here’s a reference image that labels the headers and pins:”
+  cd ~/CHIP-tools
   sudo ./chip-update-firmware.sh -f;;
-3) 2) cd ~/CHIP-tools
+3) echo “Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND). Here’s a reference image that labels the headers and pins:”
+  cd ~/CHIP-tools
   sudo ./chip-update-firmware.sh ;;  
-4) cd ~/CHIP-tools
+4) echo “Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND). Here’s a reference image that labels the headers and pins:”
+  cd ~/CHIP-tools
   sudo ./chip-update-firmware.sh -d -f;;
-5)cd ~/CHIP-tools
+5)echo “Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND). Here’s a reference image that labels the headers and pins:”
+  cd ~/CHIP-tools
   sudo ./chip-update-firmware.sh -d ;;
-6) cd ~/CHIP-tools
+6)echo “Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND). Here’s a reference image that labels the headers and pins:”
+  cd ~/CHIP-tools
   sudo ./chip-update-firmware.sh -d -b stable-gui -f;;
-7)cd ~/CHIP-tools
+7)echo “Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND). Here’s a reference image that labels the headers and pins:”
+  cd ~/CHIP-tools
   sudo ./chip-update-firmware.sh -d -b stable-gui ;;  
 8) exit;;
 esac
