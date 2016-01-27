@@ -20,12 +20,9 @@ echo "Enter 1 to Setup Ubuntu For Flashing 1:"
 echo ""
 echo "Flash-Tool"
 echo "Enter 2 to Flash With NTC Buildroot OS 2:"
-echo "Enter 3 to Flash With NTC Buildroot OS without fastboot 3:"
-echo "Enter 4 to Flash With Debian 4:"
-echo "Enter 5 to Flash With Debian without fastboot 5:"
-echo "Enter 6 to Flash With CHIP Operating System 6:"
-echo "Enter 7 to Flash With CHIP Operating System without fastboot 7:"
-echo "Enter 8 to exit"
+echo "Enter 3 to Flash With Debian 3:"
+echo "Enter 4 to Flash With CHIP Operating System 4:"
+echo "Enter 5 to exit"
 echo ""
 echo "======================================="
 
@@ -48,24 +45,15 @@ git clone http://github.com/NextThingCo/sunxi-tools
 
 2) echo "Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND)."
   cd chip-files/CHIP-tools
-  sudo ./chip-update-firmware.sh -f;;
+  sudo ./chip-update-firmware.sh;;
 3) echo "Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND)."
-  cd CHIP-tools
-  sudo ./chip-update-firmware.sh ;;  
-4) echo "Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND)."
-  cd chip-files/CHIP-tools
-  sudo ./chip-update-firmware.sh -d -f;;
-5)echo "Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND)."
   cd chip-files/CHIP-tools
   sudo ./chip-update-firmware.sh -d ;;
-6)echo "Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND)."
-  cd chip-files/CHIP-tools
-  sudo ./chip-update-firmware.sh -d -b stable-gui -f;;
-7)echo "Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND)."
+4)echo "Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND)."
   cd chip-files/CHIP-tools
   sudo ./chip-update-firmware.sh -d -b stable-gui ;;  
-8) exit;;
+5) exit;;
 esac
-echo -e "Enter return"
+echo -e "Enter 1-5 "
 done
 
