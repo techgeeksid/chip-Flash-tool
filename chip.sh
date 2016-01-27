@@ -2,12 +2,12 @@
 #:Title	: chip
 #!Date	:27-1-16
 #!Author:"k siddhartha varma"
-#!version:0.22
+#!version:0.23
 while true
 do
 mkdir chip 
 cd chip
-clea
+clear
 echo 	 "   _____ _____ _____  ";
 echo	 "  / ____|_   _|  __ \ ";
 echo	 " | (___   | | | |  | |";
@@ -19,7 +19,7 @@ echo "Menu..."
 echo "======================================="
 echo ""
 echo "Enter 1 to Setup Ubuntu For Flashing 1:"
-echo “”
+echo ""
 echo “Flash-tool”
 echo "Enter 2 to Flash With NTC Buildroot OS 2:"
 echo "Enter 3 to Flash With NTC Buildroot OS without fastboot 3:"
