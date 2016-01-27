@@ -2,7 +2,7 @@
 
 chip-Flash-tool  this is used to flash 9 dollar computer
 
-OPEN terminal
+#OPEN terminal
 
 #change location to chip-flash-tool-master
 cd Desktop/chip-Flash-tool-master/
