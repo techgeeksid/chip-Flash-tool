@@ -16,8 +16,9 @@ echo	 "                      ";
 echo "Menu..."
 echo "======================================="
 echo ""
-echo "Enter 1 to Setup Ubuntu For Flashing 1:"
-echo ""
+echo "Enter 0 to Setup Ubuntu on USB For Flashing 0:"
+#thanks to jeknotts
+echo "Enter 1 Setup Ubuntu For Flashing 1"
 echo "Flash-Tool"
 echo "Enter 2 to Flash With NTC Buildroot OS 2:"
 echo "Enter 3 to Flash With Debian 3:"
@@ -29,6 +30,9 @@ echo "Enter option Number:"
 
 read answer
 case "$answer" in 
+
+
+
 
 1) 	sudo apt-get update
 	sudo apt-get install u-boot-tools android-tools-fastboot git build-essential libusb-1.0-0-dev libncurses5-dev libc6-i386 lib32stdc++6 lib32z1 android-tools-fsutils
