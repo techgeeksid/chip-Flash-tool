@@ -30,7 +30,20 @@ echo "Enter option Number:"
 
 read answer
 case "$answer" in 
-
+#thanks to jeknotts
+ 0)  sudo add-apt-repository universe
+        sudo apt-get update
+        sudo apt-get install u-boot-tools android-tools-fastboot git build-essential libusb-1.0-0-dev libncurses5-dev libc6-i386 lib32stdc++6 lib32z1 android-tools-fsutils
+    mkdir chip-files
+    cd chip-files
+    git clone http://github.com/NextThingCo/sunxi-tools
+ 		cd sunxi-tools
+ 		make
+ 	sudo rm -f /usr/local/bin/fel
+ 	sudo ln -s $PWD/fel /usr/local/bin/fel
+ 		cd .. 
+ 		git clone http://github.com/NextThingCo/CHIP-tools 
+ 		cd CHIP-tools;;
 
 
 
