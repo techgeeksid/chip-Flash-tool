@@ -1,9 +1,9 @@
 # chip-Flash-tool
-
 chip-Flash-tool is used to flash 9 dollar computer
-https://youtu.be/0YosKhdn7wQ
 
-[![video](http://img.youtube.com/vi/0YosKhdn7wQ/0.jpg)](http://www.youtube.com/watch?v=0YosKhdn7wQ)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=0YosKhdn7wQ
+" target="_blank"><img src="http://img.youtube.com/vi/0YosKhdn7wQ/0.jpg" 
+alt="video" width="240" height="180" border="10" /></a>
 
 #OPEN terminal
 
