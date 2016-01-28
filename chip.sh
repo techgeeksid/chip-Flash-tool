@@ -18,7 +18,7 @@ echo "======================================="
 echo ""
 echo "Enter 0 to Setup Ubuntu on USB For Flashing 0:"
 #thanks to jeknotts
-echo "Enter 1 Setup Ubuntu For Flashing 1"
+echo "Enter 1 Setup Ubuntu For Flashing 1:"
 echo "Flash-Tool"
 echo "Enter 2 to Flash With NTC Buildroot OS 2:"
 echo "Enter 3 to Flash With Debian 3:"
