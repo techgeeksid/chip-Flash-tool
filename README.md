@@ -8,6 +8,6 @@ chip-Flash-tool is used to flash 9 dollar computer
 `cd Desktop/chip-Flash-tool-master/`
 
 #change permission of file chip.sh to execute  
-`chmod 777 chip`
+`chmod 777 chip.sh`
 
 `./chip.sh`
