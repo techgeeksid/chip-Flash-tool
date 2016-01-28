@@ -2,6 +2,8 @@
 
 chip-Flash-tool is used to flash 9 dollar computer
 
+https://youtu.be/0YosKhdn7wQ
+
 #OPEN terminal
 
 #change location to chip-flash-tool-master
@@ -11,3 +13,5 @@ chip-Flash-tool is used to flash 9 dollar computer
 `chmod 777 chip.sh`
 
 `./chip.sh`
+
+
