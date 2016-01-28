@@ -2,7 +2,7 @@
 #:Title	: chip
 #!Date	:27-1-16
 #!Author:"k siddhartha varma"
-#!version:0.26
+#!version:0.3
 while true
 do
 clear
@@ -15,11 +15,11 @@ echo	 " |_____/|_____|_____/ ";
 echo	 "                      "; 
 echo "Menu..."
 echo "======================================="
-echo ""
+echo "Setup Ubuntu For Flashing"
 echo "Enter 0 to Setup Ubuntu on USB For Flashing 0:"
-#thanks to jeknotts
+#thanks to jeknotts for adding option to ubuntu on usb
 echo "Enter 1 Setup Ubuntu For Flashing 1:"
-echo "Flash-Tool"
+echo "Flash CHIP Firmware"
 echo "Enter 2 to Flash With NTC Buildroot OS 2:"
 echo "Enter 3 to Flash With Debian 3:"
 echo "Enter 4 to Flash With CHIP Operating System 4:"
@@ -30,7 +30,6 @@ echo "Enter option Number:"
 
 read answer
 case "$answer" in 
-#thanks to jeknotts
  0)  sudo add-apt-repository universe
         sudo apt-get update
         sudo apt-get install u-boot-tools android-tools-fastboot git build-essential libusb-1.0-0-dev libncurses5-dev libc6-i386 lib32stdc++6 lib32z1 android-tools-fsutils
