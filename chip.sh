@@ -68,7 +68,7 @@ git clone http://github.com/NextThingCo/sunxi-tools
   sudo ./chip-update-firmware.sh -d ;;
 4)echo "Prepare CHIP with a jumper wire connecting Pin 7 and Pin 39 on header U14 (UBOOT pin and GND)."
   cd chip-files/CHIP-tools
-  sudo ./chip-update-firmware.sh -d -b stable-gui ;;  
+  sudo ./chip-update-firmware.sh -d -b stable-gui -f;;  
 5) exit;;
 esac
 echo -e "Enter new option"
